@@ -1,0 +1,70 @@
+# **********************************************************************
+# "CPU Panel (8-core)" theme for Conky by Tony George (teejee2008@gmail.com)
+#
+# Webpage: http://teejeetech.blogspot.in/
+# **********************************************************************
+
+
+background no
+double_buffer yes
+
+alignment top_right
+
+border_width 1
+cpu_avg_samples 2
+default_color white
+default_outline_color white
+default_shade_color white
+draw_borders no
+draw_graph_borders yes
+draw_outline no
+draw_shades no
+
+gap_x 10
+gap_y 10
+net_avg_samples 2
+no_buffers yes
+out_to_console no
+out_to_stderr no
+extra_newline no
+
+own_window yes
+own_window_type desktop
+own_window_transparent yes
+own_window_colour 000000
+own_window_argb_visual yes
+own_window_argb_value 0
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+
+minimum_size 250 100
+maximum_width 300
+stippled_borders 0
+update_interval 2.0
+uppercase no
+use_spacer none
+
+show_graph_scale no
+show_graph_range no
+
+use_xft yes
+xftalpha 0.1
+xftfont FreeSerif :style=Bold:size=18
+color0 white
+color1 EAEAEA
+color2 FFA300
+color3 grey
+
+TEXT
+
+$alignc ${color2}ﺓﻼ﻿ﺼﻟﺍ ﺖﻗﻭ ${color0}
+${hr}
+$alignc ${color2} ${execi 1 "nsalah"}${color1} ﻰﻘﺒﺗ   
+${execi 1 nsalah fajr} $alignc 		ﺮﺠﻔﻟﺍ
+${execi 1 nsalah sunrise} $alignc 		ﻕﻭﺮﺸﻟﺍ
+${execi 1 nsalah dhuhr} $alignc 		ﺮﻬﻈﻟﺍ
+${execi 1 nsalah asr} $alignc	 	ﺮﺼﻌﻟﺍ
+${execi 1 nsalah maghrib} $alignc 		ﺏﺮﻐﻤﻟﺍ
+${execi 1 nsalah isha} $alignc	 	ءﺎﺸﻌﻟﺍ
+
+
+
