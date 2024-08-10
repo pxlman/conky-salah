@@ -3,7 +3,7 @@
 
 # Features
 مفيش أفيد من كدا
-![](./workingWithMeProof.png)
+![](./workingWithMeProof2.png)
 # Requirements
 - [Next-Salah](https://github.com/pxlman/Next-Salah) make an alias for running it at `~/.bashrc` or whatever which looks like `alias nsalah="python /path/to/Next-Salah/main.py"`
 - FreeSerif Font
