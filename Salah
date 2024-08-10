@@ -1,10 +1,8 @@
 # **********************************************************************
-# "CPU Panel (8-core)" theme for Conky by Tony George (teejee2008@gmail.com)
-#
-# Webpage: http://teejeetech.blogspot.in/
+# Conky configuration file
+# Salah Times
+# https://github.com/pxlman/conky-salah
 # **********************************************************************
-
-
 background no
 double_buffer yes
 
